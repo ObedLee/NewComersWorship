@@ -1256,6 +1256,10 @@ animation-name: slidein;
   margin-top: 250px;
 }
 
+#dt{
+  margin-top: 100px;
+}
+
 .second-part{
   width:100%;
   height: 100%;
@@ -1288,7 +1292,6 @@ animation-name: slidein;
 }
 #more{
   margin-top: 50px;
-  margin-bottom: 0;
 }
 #information{
   display: flex;
@@ -1372,6 +1375,29 @@ animation-name: slidein;
 }
 
 .width-50{
-  width: 50%;
+  width: 40%;
   margin: auto;
+}
+
+.width-10{
+  width: 10%;
+  margin: auto;
+}
+
+
+#blink{
+  animation: blink-effect 1.75s ease-in-out infinite;
+}
+
+}
+@keyframes blink-effect {
+  0%{
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
 }
