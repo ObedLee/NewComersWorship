@@ -1245,7 +1245,7 @@ animation-name: slidein;
 #shadow{
   width: 50%;
   margin:auto;
-  margin-top: 180px;
+  margin-top: 100px;
 }
 .second-part{
   width:100%;
@@ -1275,7 +1275,7 @@ animation-name: slidein;
   margin-bottom: 0;
 }
 #location-both{
-  margin-top: 200px;
+  margin-top: 100px;
 }
 #more{
   margin-top: 50px;
@@ -1360,10 +1360,4 @@ animation-name: slidein;
    margin-right:1%;
    width:100%;
  }
-}
-
-.word{
-  color: white;
-  font-size: 40px;
-  text-align: center;
 }
