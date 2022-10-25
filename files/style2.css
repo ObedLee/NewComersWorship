@@ -1110,6 +1110,11 @@ footer
   background-color: #fff;
 }
 
+.page-content{
+  overflow: hidden;
+  touch-action: none; 
+}
+
 .div-img {
   margin: 0 auto;
   width: 20px;
