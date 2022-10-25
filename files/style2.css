@@ -109,6 +109,7 @@ padding: 0;
 
 #location {
 margin-top : 250px;
+margin-bottom : 50px;
 }
 
 #address {
@@ -1245,7 +1246,7 @@ animation-name: slidein;
 }
 
 #withme{
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 #verse{
@@ -1253,7 +1254,7 @@ animation-name: slidein;
 }
 
 #hand{
-  margin-top: 250px;
+  margin-top: 50px;
 }
 
 #dt{
@@ -1375,6 +1376,11 @@ animation-name: slidein;
 }
 
 .width-50{
+  width: 40%;
+  margin: auto;
+}
+
+.width-30{
   width: 40%;
   margin: auto;
 }
